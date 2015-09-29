@@ -120,7 +120,6 @@ def toString(intVal):
     return ''.join(reversed(result))
 
 if __name__ == '__main__':
-    print str(toInt('zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz'))
     if len(sys.argv) == 2:
         numDigits = int(sys.argv[1])
         print generatePrimes(1, numDigits)[0]
